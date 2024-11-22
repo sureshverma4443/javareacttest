@@ -64,7 +64,7 @@ const Mainpage = () => {
                 checked={todo.isChecked}
                 onChange={() => handleCheck(index)}
               />
-              <span className="ms-2 border w-100  overflow-x-hidden ">{todo.text}</span>
+              <span className="ms-2  w-100  overflow-x-hidden ">{todo.text}</span>
             </div>
             <div>
               <button
